@@ -1,0 +1,35 @@
+{
+  "name": "@thenablyn/angucomplete-alt2",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ppicapietra/angucomplete-alt2/blob/fb3bdc209a6f0a72864a0f9af7ebfa6a7d0c701f/README.md",
+  "authors": [
+    "Hidenari Nozaki <hidenari@gmail.com>",
+    "Pablo Picapietra <ppicapietra@gmail.com>"
+  ],
+  "description": "A fork of angucomplete-alt with some fixes for AngularJS",
+  "keywords": [
+    "autocomplete",
+    "typeahead",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "main": [
+      "./angucomplete-alt.js",
+      "./angucomplete-alt.css"
+  ],
+  "ignore": [
+    "example",
+    "bower_components",
+    "node_modules",
+    "**/.*",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": ">=1.6.0"
+  },
+  "devDependencies": {
+    "angular-mocks": ">=1.6.0",
+    "jquery": "~2.1.0"
+  }
+}
